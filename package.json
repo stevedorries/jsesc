@@ -35,13 +35,7 @@
     "jsesc.js",
     "bin/",
     "man/"
-  ],
-  "scripts": {
-    "build": "grunt template",
-    "coveralls": "istanbul cover --verbose --dir 'coverage' 'tests/tests.js' && coveralls < coverage/lcov.info'",
-    "cover": "istanbul cover --report 'html' --verbose --dir 'coverage' 'tests/tests.js'",
-    "test": "mocha tests"
-  },
+  ],  
   "devDependencies": {
     "coveralls": "^2.11.6",
     "grunt": "^0.4.5",
